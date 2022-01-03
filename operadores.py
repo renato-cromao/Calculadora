@@ -47,7 +47,7 @@ elif op == 4:
     n2 = int(input('Informe o segundo valor: '))
     s = n1 / n2
     print('')
-    print('A divisão de {} / {} é igual a {:.0f}.'.format(n1, n2, s))
+    print('A divisão de {} / {} é igual a {:.1f}.'.format(n1, n2, s))
 
 elif op == 5:
     print('A operação escolhida foi a POTENCIAÇÃO.')
